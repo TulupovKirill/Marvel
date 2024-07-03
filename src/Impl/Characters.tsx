@@ -1,4 +1,4 @@
-import '../styles/Main.css'
+import '../styles/Cards.css'
 
 function Screen_Characters()
 {

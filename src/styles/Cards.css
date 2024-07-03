@@ -17,8 +17,6 @@ main h1
 .cards
 {
   display: flex;
-  border: 1px green;
-  margin-left: 2em;
 }
 
 .card

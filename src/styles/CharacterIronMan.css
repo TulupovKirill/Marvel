@@ -1,0 +1,47 @@
+main
+{
+  height: 44em;
+  background-color: white;
+  margin: 1em;
+}
+
+main h1
+{
+  color: black;
+  margin-left: 1em;
+  margin-top: 1em;
+  min-height: 1em;
+}
+
+.title
+{
+    height: 44em;
+    width: 50%;
+    margin-left: 2em;
+    color: black
+}
+
+.title h1
+{
+    text-align: center;
+    font-size: 3em;
+}
+
+.title img
+{
+    object-position: center;
+    margin-left: 15em;
+}
+
+.describ
+{
+    height: 70%;
+    font-size: 3em;
+    margin-top: 1em;
+}
+
+.links
+{
+    height: 30%;
+    font-size: 2em;
+}
