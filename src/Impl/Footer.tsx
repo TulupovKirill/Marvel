@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../styles/Footer.css'
 
 function Footer() {
@@ -7,7 +8,7 @@ function Footer() {
     return (
         <footer>
             <h3>Data provided by Marvel. {currentYear} ©MARVEL</h3>
-            <a href="developer.marvel.com">developer.marvel.com</a>
+            <Link to="/">developer.marvel.com</Link>
         </footer>
     )
 }
