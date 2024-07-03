@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import './../../styles/Describtion.css'
 
 function Screen_Comics()
@@ -12,7 +12,8 @@ function Screen_Comics()
                         <img src='src/data/image/Essential_Iron_Man_Vol_1.jpg' width="320px" height="370px"/>
                     </div>
                     <div className='card_text'>
-                        <Link to="/comics/1">Essential Iron Man, Vol. 1</Link>
+                        {/* <Link to="/comics/1">Essential Iron Man, Vol. 1</Link> */}
+                        <a href="/comics/1">Essential Iron Man, Vol. 1</a>
                     </div>
                 </div>
                 <div className='card'>
@@ -20,7 +21,8 @@ function Screen_Comics()
                         <img src='src/data/image/HulkAngry.jpg' width="320px" height="370px"/>
                     </div>
                     <div className='card_text'>
-                        <Link to="/comics/2">Hulk. Angry</Link>
+                        {/* <Link to="/comics/2">Hulk. Angry</Link> */}
+                        <a href="/comics/2">Hulk. Angry</a>
                     </div>
                 </div>
                 <div className='card'>
@@ -28,7 +30,8 @@ function Screen_Comics()
                         <img src='src/data/image/Modern_Spider_Man.jpg' width="320px" height="370px"/>
                     </div>
                     <div className='card_text'>
-                        <Link to="/comics/3">Modern Spider Man</Link>
+                        {/* <Link to="/comics/3">Modern Spider Man</Link> */}
+                        <a href="/comics/3">Modern Spider Man</a>
                     </div>
                 </div>
             </div>

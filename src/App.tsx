@@ -18,33 +18,34 @@ import Screen_Comics from './Impl/Comics/Comics.tsx'
 
 function App() {
 
-  // let routes: RouteObject[] = [
-  //   {
-  //     path: "/",
-  //     element: <Menu />,
-  //     children: [
-  //       { path: "comics", element: <Screen_Comics />, children: 
-  //         [
-  //           { path: 'comics/1', element: <Comics_EssentialIronManVol1/>},
-  //           { path: 'comics/2', element: <Comics_HulkAngry/>},
-  //           { path: 'comics/3', element: <Comics_ModernSpiderMan/>},
-  //         ]
-  //       },
-  //       { path: "characters", element: <Screen_Characters />, children:
-  //         [
-  //           { path: 'characters/1', element: <Character_Hulk/>},
-  //           { path: 'characters/2', element: <Character_IronMan/>},
-  //           { path: 'characters/3', element: <Character_SpiderMan/>},
-  //         ]
-  //       }
-  //     ],
-  //   },
-  // ];
+  let routes: RouteObject[] = [
+    {
+      path: "/",
+      element: <Menu/>
+    },
+    {
+      path: "comics", element: <Screen_Comics/>, children: 
+      [
+        { path: 'comics/1', element: <Comics_EssentialIronManVol1/>},
+        { path: 'comics/2', element: <Comics_HulkAngry/>},
+        { path: 'comics/3', element: <Comics_ModernSpiderMan/>},
+      ]
+    },
+    { path: "characters", element: <Screen_Characters/>, children:
+      [
+        { path: 'characters/1', element: <Character_Hulk/>},
+        { path: 'characters/2', element: <Character_IronMan/>},
+        { path: 'characters/3', element: <Character_SpiderMan/>},
+      ]
+    }
+  ];
+
+  let element = useRoutes(routes);
 
   return (
     <>
       <Header/>
-      <Menu/>
+      
       <Footer/>
     </>
   )

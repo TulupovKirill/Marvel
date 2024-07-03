@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import './../../styles/Describtion.css'
 
 function Comics_EssentialIronManVol1 ()
@@ -17,7 +17,8 @@ function Comics_EssentialIronManVol1 ()
                     </div>
                     <div className="links">
                         <h2>List Characters</h2>
-                        <Link to="/characters/2">Iron Man</Link>
+                        {/* <Link to="/characters/2">Iron Man</Link> */}
+                        <a href="/characters/2">Iron Man</a>
                     </div>
                     
                 </div>
