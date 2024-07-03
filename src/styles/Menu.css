@@ -1,0 +1,89 @@
+main
+{
+    height: 100%;
+}
+
+.menu
+{
+    display: flex;
+}
+
+.card_menu
+{   
+    width: 50%;
+    align-content: center;
+}
+
+.card_menu_img_character img
+{
+    width: 33%;
+    height: 50%;
+    border: 2px solid black;
+    margin-left: 33%;
+}
+
+.card_menu_img_comics img
+{
+    width: 33%;
+    height: 50%;
+    border: 2px solid black;
+    margin-left: 33%;
+}
+
+.card_menu_describtion
+{
+    color: black;
+    font-size: 1em;
+    text-align: center;
+}
+
+.card_menu_nav_button
+{
+    color: black;
+    font-size: 1em;
+    text-align: center;
+}
+
+.card_menu_nav_button button 
+{
+    background-color: #04AA6D; 
+    border: 1px solid green; 
+    color: white;
+    cursor: pointer; 
+    width: 33%;
+    font-size: 20px;
+    height: 100%;
+    padding: 2px;
+    float:center;
+    text-align: center;
+}
+
+
+.card_menu_nav_button button:hover 
+{
+    background-color: #3e8e41;
+}
+
+
+.card_menu_nav_button button:focus
+{
+    text-decoration: underline 1px white;
+}
+
+
+.card_menu_nav_button button:not(:last-child) 
+{
+    border-right: none;
+}
+
+.menu_text h1
+{
+    font-size: 5em;
+    color: black;
+    text-align: center;
+}
+
+.card_menu_nav_button_text
+{
+    text-decoration: none;
+}

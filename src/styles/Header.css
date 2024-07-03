@@ -1,6 +1,6 @@
 header 
 {
-	height: 10em;
+	height: 10%;
     background-color: white;
 }
 
@@ -53,7 +53,7 @@ header
 {
     max-width: 1em;
     margin-left: 1em;
-    min-width: 4.5em;
+    font-size: 3em;
 }
 
 
@@ -61,22 +61,6 @@ header
 {
     background-color: red;
     display: flex
-}
-
-
-.MarvelLogo h1:hover
-{
-    color:rgb(133, 161, 161);
-    cursor: pointer;
-}
-
-
-.MarvelLogo a
-{
-    color: orange;
-    font-size: 20px;
-    margin-top: 0.4em;
-    margin-right: 1em;
 }
 
 

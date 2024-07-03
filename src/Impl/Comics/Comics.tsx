@@ -1,4 +1,4 @@
-import '../styles/Main.css'
+import '../../styles/Main.css'
 
 function ScreenComics()
 {
