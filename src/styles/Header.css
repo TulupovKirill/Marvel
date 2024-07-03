@@ -1,0 +1,86 @@
+header 
+{
+	height: 10em;
+    background-color: white;
+}
+
+
+.Search button 
+{
+    background-color: #04AA6D; 
+    border: 1px solid green; 
+    color: white;
+    cursor: pointer; 
+    width: 150px;
+    font-size: 20px;
+    height: 2.4em;
+    padding: 2px;
+    float:center;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+.Search button:hover 
+{
+    background-color: #3e8e41;
+}
+
+
+.Search button:focus
+{
+    text-decoration: underline 1px white;
+}
+
+
+.Search button:not(:last-child) 
+{
+    border-right: none;
+}
+
+
+.Search input
+{
+    width: 600px;
+    font-size: 20px;
+    margin-left: 1em;
+    padding: 0.5em;
+}
+
+
+.MarvelLogo a 
+{
+    max-width: 1em;
+    margin-left: 1em;
+    min-width: 4.5em;
+}
+
+
+.MarvelLogo 
+{
+    background-color: red;
+    display: flex
+}
+
+
+.MarvelLogo h1:hover
+{
+    color:rgb(133, 161, 161);
+    cursor: pointer;
+}
+
+
+.MarvelLogo a
+{
+    color: orange;
+    font-size: 20px;
+    margin-top: 0.4em;
+    margin-right: 1em;
+}
+
+
+.MarvelLogo a:focus
+{
+    text-decoration: underline 1px white;
+}

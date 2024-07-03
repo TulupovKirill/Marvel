@@ -1,0 +1,16 @@
+footer
+{
+    height: 5em;
+    background-color: grey;
+}
+
+footer h2
+{
+    font-size: 20px;
+    margin-left: 1em;
+}
+
+footer a
+{
+    margin-left: 1em;
+}
