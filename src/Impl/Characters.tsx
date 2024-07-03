@@ -1,6 +1,6 @@
 import '../styles/Main.css'
 
-function Main()
+function Screen_Characters()
 {
     return (
         <>
@@ -37,4 +37,4 @@ function Main()
     )
 }
 
-export default Main
+export default Screen_Characters
