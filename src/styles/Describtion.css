@@ -21,6 +21,11 @@ main h1
     color: black
 }
 
+.between
+{
+    display: flex;
+}
+
 .title h1
 {
     text-align: center;

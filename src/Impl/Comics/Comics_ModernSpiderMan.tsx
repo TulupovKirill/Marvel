@@ -1,17 +1,14 @@
-import Header from "./Header"
-import Footer from "./Footer"
-import './../styles/CharacterIronMan.css'
+import './../../styles/Describtion.css'
 
-function CharacterIronMan ()
+function Comics_ModernSpiderMan ()
 {
     return(
         <>
-            <Header/>
             <main>
-                <div className="cards">
+                <div className="between">
                     <div className="title">
-                        <h1>Essential Iron Man, Vol. 1</h1>
-                        <img src='src/data/image/Essential_Iron_Man_Vol_1.jpg' width="400px" height="550px"/>
+                        <h1>Modern Spider Man</h1>
+                        <img src='src/data/image/Modern_Spider_Man.jpg' width="400px" height="550px"/>
                     </div>
 
                     <div className="title">
@@ -22,17 +19,13 @@ function CharacterIronMan ()
 
                         <div className="links">
                             <h2>List Characters</h2>
-                            <a href="#">Iron Man</a>
+                            <a href="#">Spider Man</a>
                         </div>
-                        
                     </div>
                 </div>
-                
-                
             </main>
-            <Footer/>
         </>
     )
 }
 
-export default CharacterIronMan
+export default Comics_ModernSpiderMan
