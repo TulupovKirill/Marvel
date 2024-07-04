@@ -8,19 +8,15 @@ function Screen_Characters()
     return (
         <main>
             <h1 className='h1_characters'>Characters Marvel</h1>
-            <div className='cards_characters'>
-                <div className='card_of_character'>
-                    <img className='card_img' src={image_iron_man} width="320px" height="370px"/>
-                    <a className='card_text' href="/characters/2">Iron Man</a>
-                </div>
-                <div className='card_of_character'>
-                    <img className='card_img' src={image_hulk}width="320px" height="370px"/>
-                    <a className='card_text' href="/characters/1">Hulk</a>
-                </div>
-                <div className='card_of_character'>
-                    <img className='card_img' src={image_spider_man} width="320px" height="370px"/>
-                    <a className='card_text' href="/characters/3">Spider Man</a>
-                </div>
+            <div className='character_images'>
+                <img className='card_img' src={image_iron_man} width="350px" height="450px"/>
+                <img className='card_img' src={image_hulk}width="350px" height="450px"/>
+                <img className='card_img' src={image_spider_man} width="350px" height="450px"/>
+            </div>
+            <div className='character_texts'>
+                <a className='card_text_1' href="/characters/2">Iron Man</a>
+                <a className='card_text_2' href="/characters/1">Hulk</a>
+                <a className='card_text_3' href="/characters/3">Spider Man</a>
             </div>
         </main>
     )

@@ -1,10 +1,19 @@
-.cards_characters
+.character_images
 {
     display: flex;
+    margin-top: 4em;
 }
 
-.card_of_character
+.character_texts
 {
+    display: flex;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.card_img
+{
+    margin-left: 10%;
 }
 
 .h1_characters
@@ -12,4 +21,30 @@
     color: black;
     font-size: 3em;
     text-decoration: none;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.card_text_1
+{
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: 15%;
+}
+
+.card_text_2
+{
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: 25%;
+}
+
+.card_text_3
+{
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: 22%;
 }
