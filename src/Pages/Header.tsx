@@ -6,7 +6,6 @@ function Header() {
         <header>
             <div className='MarvelLogo'>
                 <Link to="/">MARVEL</Link>
-                {/* <a href="/">MARVEL</a> */}
             </div>
             
             <div className="Search">

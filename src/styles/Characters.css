@@ -1,0 +1,15 @@
+.cards_characters
+{
+    display: flex;
+}
+
+.card_of_character
+{
+}
+
+.h1_characters
+{
+    color: black;
+    font-size: 3em;
+    text-decoration: none;
+}

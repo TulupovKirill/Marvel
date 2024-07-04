@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom'
-import './../../styles/Describtion.css'
-import image_comics_Essential_Iron_Man_Vol_1 from '/src/data/image/Essential_Iron_Man_Vol_1.jpg'
+import './../../styles/Comics.css'
+import image_iron_man from '/src/data/image/iron_man.png'
 
-function Comics_EssentialIronManVol1 ()
+function Character_IronMan ()
 {
     return(
         <main>
             <div className="between">
                 <div className="title">
-                    <h1>Essential Iron Man, Vol. 1</h1>
-                    <img src={image_comics_Essential_Iron_Man_Vol_1} width="400px" height="550px"/>
+                    <h1>Iron Man</h1>
+                    <img src={image_iron_man} width="400px" height="550px"/>
                 </div>
                 <div className="title">
                     <div className="describ">
@@ -17,14 +17,13 @@ function Comics_EssentialIronManVol1 ()
                         <p>Anything...</p>
                     </div>
                     <div className="links">
-                        <h2>List Characters</h2>
-                        <Link to="/characters/2">Iron Man</Link>
+                        <h2>List Product</h2>
+                        <Link to="/comics/1">Essential Iron Man, Vol. 1</Link>
                     </div>
-                    
                 </div>
             </div>
         </main>
     )
 }
 
-export default Comics_EssentialIronManVol1
+export default Character_IronMan

@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom'
-import './../../styles/Describtion.css'
-import image_comics_Modern_Spider_Man from '/src/data/image/Modern_Spider_Man.jpg' 
+import './../../styles/Comics.css'
+import image_hulk from '/src/data/image/hulk.png'
 
-function Comics_ModernSpiderMan ()
+function Character_Hulk ()
 {
     return(
         <main>
             <div className="between">
                 <div className="title">
-                    <h1>Modern Spider Man</h1>
-                    <img src={image_comics_Modern_Spider_Man} width="400px" height="550px"/>
+                    <h1>Hulk</h1>
+                    <img src={image_hulk} width="400px" height="550px"/>
                 </div>
                 <div className="title">
                     <div className="describ">
@@ -17,8 +17,8 @@ function Comics_ModernSpiderMan ()
                         <p>Anything...</p>
                     </div>
                     <div className="links">
-                        <h2>List Characters</h2>
-                        <Link to="/characters/3">Spider Man</Link>
+                        <h2>List Product</h2>
+                        <Link to="/comics/2">Hulk. Angry</Link>
                     </div>
                 </div>
             </div>
@@ -26,4 +26,4 @@ function Comics_ModernSpiderMan ()
     )
 }
 
-export default Comics_ModernSpiderMan
+export default Character_Hulk

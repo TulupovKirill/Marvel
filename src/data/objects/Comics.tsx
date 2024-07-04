@@ -1,20 +1,21 @@
-export const comics_halk = [
-    {
-        id: 2,
-        name: 'Hulk. Anger',
-        url: '/coomics/2',
-        img: 'src/data/image/HulkAngry.jpg'
-    },
+import Comics_EssentialIronManVol1 from "../../Pages/Comics/Comics_EssentialIronManVol1";
+import Comics_HulkAngry from "../../Pages/Comics/Comics_HulkAngry";
+import Comics_ModernSpiderMan from "../../Pages/Comics/Comics_ModernSpiderMan";
+
+export const comics = [
     {
         id: 1,
         name: 'Essential Iron Man, Vol. 1',
-        url: '/comics/1',
-        img: 'src/data/image/Essential_Iron_Man_Vol_1.jpg'
+        page: <Comics_EssentialIronManVol1/>
+    },
+    {
+        id: 2,
+        name: 'Hulk. Anger',
+        page: <Comics_HulkAngry/>
     },
     {
         id: 3,
         name: 'Modern Spider Man',
-        url: '/comics/3',
-        img: 'src/data/image/Modern_Spider_Man.jpg'
+        page: <Comics_ModernSpiderMan/>
     }
 ];
