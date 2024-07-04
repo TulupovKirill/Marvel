@@ -34,12 +34,12 @@ function App() {
     },
     { path: "/characters", children:
       [
-        {index: true, element: <Screen_Characters/>},
+        {index: true, element: <Screen_Characters/>,},
         { path: '1', element: <Character_Hulk/>},
         { path: '2', element: <Character_IronMan/>},
         { path: '3', element: <Character_SpiderMan/>},
       ]
-    }
+    },
   ];
 
   let element = useRoutes(routes);

@@ -1,6 +1,6 @@
 main
 {
-  height: 44em;
+  height: 80%;
   margin: 1em;
 }
 
@@ -39,13 +39,14 @@ main h1
 
 .describ
 {
-    height: 70%;
+    height: 55%;
     font-size: 3em;
     margin-top: 1em;
 }
 
 .links
 {
-    height: 30%;
+    height: 45%;
     font-size: 2em;
+    margin: 0;
 }

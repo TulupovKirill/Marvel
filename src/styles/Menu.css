@@ -6,6 +6,7 @@ main
 .menu
 {
     display: flex;
+    margin-top: 2em;
 }
 
 .card_menu
@@ -18,7 +19,6 @@ main
 {
     width: 33%;
     height: 50%;
-    border: 2px solid black;
     margin-left: 33%;
 }
 
@@ -26,7 +26,6 @@ main
 {
     width: 33%;
     height: 50%;
-    border: 2px solid black;
     margin-left: 33%;
 }
 
@@ -80,7 +79,8 @@ main
 {
     font-size: 5em;
     color: black;
-    text-align: center;
+    margin-left: 1%;
+    margin-top: 0;
 }
 
 .card_menu_nav_button_text
