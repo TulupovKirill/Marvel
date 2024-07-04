@@ -1,12 +1,12 @@
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import '../styles/Header.css'
 
 function Header() {  
     return (
         <header>
             <div className='MarvelLogo'>
-                {/* <Link to="/">MARVEL</Link> */}
-                <a href="/">MARVEL</a>
+                <Link to="/">MARVEL</Link>
+                {/* <a href="/">MARVEL</a> */}
             </div>
             
             <div className="Search">

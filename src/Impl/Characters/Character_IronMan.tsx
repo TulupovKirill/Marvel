@@ -1,4 +1,4 @@
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './../../styles/Describtion.css'
 
 function Character_IronMan ()
@@ -17,8 +17,8 @@ function Character_IronMan ()
                     </div>
                     <div className="links">
                         <h2>List Product</h2>
-                        {/* <Link to="/comics/1">Essential Iron Man, Vol. 1</Link> */}
-                        <a href="/comics/1">Essential Iron Man, Vol. 1</a>
+                        <Link to="/comics/1">Essential Iron Man, Vol. 1</Link>
+                        {/* <a href="/comics/1">Essential Iron Man, Vol. 1</a> */}
                     </div>
                 </div>
             </div>

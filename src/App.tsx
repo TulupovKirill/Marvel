@@ -24,18 +24,20 @@ function App() {
       element: <Menu/>
     },
     {
-      path: "comics", element: <Screen_Comics/>, children: 
+      path: "/comics", children: 
       [
-        { path: 'comics/1', element: <Comics_EssentialIronManVol1/>},
-        { path: 'comics/2', element: <Comics_HulkAngry/>},
-        { path: 'comics/3', element: <Comics_ModernSpiderMan/>},
+        {index: true, element: <Screen_Comics/>,},
+        { path: '1', element: <Comics_EssentialIronManVol1/>},
+        { path: '2', element: <Comics_HulkAngry/>},
+        { path: '3', element: <Comics_ModernSpiderMan/>},
       ]
     },
-    { path: "characters", element: <Screen_Characters/>, children:
+    { path: "/characters", children:
       [
-        { path: 'characters/1', element: <Character_Hulk/>},
-        { path: 'characters/2', element: <Character_IronMan/>},
-        { path: 'characters/3', element: <Character_SpiderMan/>},
+        {index: true, element: <Screen_Characters/>},
+        { path: '1', element: <Character_Hulk/>},
+        { path: '2', element: <Character_IronMan/>},
+        { path: '3', element: <Character_SpiderMan/>},
       ]
     }
   ];
@@ -45,7 +47,7 @@ function App() {
   return (
     <>
       <Header/>
-      
+      {element}
       <Footer/>
     </>
   )

@@ -62,11 +62,10 @@ header
 .MarvelLogo 
 {
     background-color: red;
-    display: flex
 }
 
 
-.MarvelLogo a:focus
+.MarvelLogo :focus
 {
     text-decoration: underline 1px white;
 }

@@ -1,4 +1,4 @@
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './../../styles/Describtion.css'
 
 function Character_SpiderMan ()
@@ -17,8 +17,8 @@ function Character_SpiderMan ()
                     </div>
                     <div className="links">
                         <h2>List Product</h2>
-                        {/* <Link to="/comics/3">Modern Spider Man</Link> */}
-                        <a href="/comics/3">Modern Spider Man</a>
+                        <Link to="/comics/3">Modern Spider Man</Link>
+                        {/* <a href="/comics/3">Modern Spider Man</a> */}
                     </div>
                 </div>
             </div>
