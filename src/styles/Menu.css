@@ -1,10 +1,6 @@
-.menu
-{
-    height: 34.1em;
-}
-
 .cards_menu
 {
+    margin-top: 3em;
     display: flex;
 }
 

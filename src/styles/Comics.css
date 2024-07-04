@@ -1,0 +1,61 @@
+.screen_comics_h1
+{
+  color: black;
+  margin-left: 1em;
+  font-size: 3em;
+}
+
+.comics_images
+{
+  display: flex;
+}
+
+.comics_images_1
+{
+  margin-left: 10%;
+}
+
+.comics_text_1
+{
+  margin-left: 9.5%;
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+.comics_images_2
+{
+  margin-left: 10%;
+}
+
+.comics_text_2
+{
+  margin-left: 13%;
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+.comics_text_3
+{
+  margin-left: 15%;
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+.comics_images_3
+{
+  margin-left: 10%;
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+}
+
+.comics_text
+{
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+}

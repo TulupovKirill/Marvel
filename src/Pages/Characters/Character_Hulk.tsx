@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import './../../styles/Describtion.css'
+import './../../styles/Comics.css'
 import image_hulk from '/src/data/image/hulk.png'
 
 function Character_Hulk ()

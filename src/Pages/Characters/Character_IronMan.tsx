@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import './../../styles/Describtion.css'
+import './../../styles/Comics.css'
 import image_iron_man from '/src/data/image/iron_man.png'
 
 function Character_IronMan ()

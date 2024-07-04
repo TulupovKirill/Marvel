@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import './../../styles/Describtion.css'
+import './../../styles/Comics.css'
 import image_comics_Modern_Spider_Man from '/src/data/image/Modern_Spider_Man.jpg' 
 
 function Comics_ModernSpiderMan ()

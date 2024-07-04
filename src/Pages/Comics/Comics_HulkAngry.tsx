@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import './../../styles/Describtion.css'
+import './../../styles/Comics.css'
 import image_comics_HulkAngry from '/src/data/image/HulkAngry.jpg'
 
 function Comics_HulkAngry ()
