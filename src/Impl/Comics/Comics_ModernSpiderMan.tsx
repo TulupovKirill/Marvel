@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './../../styles/Describtion.css'
+import image_comics_Modern_Spider_Man from '/src/data/image/Modern_Spider_Man.jpg' 
 
 function Comics_ModernSpiderMan ()
 {
@@ -8,7 +9,7 @@ function Comics_ModernSpiderMan ()
             <div className="between">
                 <div className="title">
                     <h1>Modern Spider Man</h1>
-                    <img src='src/data/image/Modern_Spider_Man.jpg' width="400px" height="550px"/>
+                    <img src={image_comics_Modern_Spider_Man} width="400px" height="550px"/>
                 </div>
                 <div className="title">
                     <div className="describ">
@@ -18,7 +19,6 @@ function Comics_ModernSpiderMan ()
                     <div className="links">
                         <h2>List Characters</h2>
                         <Link to="/characters/3">Spider Man</Link>
-                        {/* <a href="/characters/3">Spider Man</a> */}
                     </div>
                 </div>
             </div>

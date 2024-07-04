@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './../../styles/Describtion.css'
+import image_comics_HulkAngry from '/src/data/image/HulkAngry.jpg'
 
 function Comics_HulkAngry ()
 {
@@ -8,7 +9,7 @@ function Comics_HulkAngry ()
             <div className="between">
                 <div className="title">
                     <h1>Hulk. Angry</h1>
-                    <img src='src/data/image/HulkAngry.jpg' width="400px" height="550px"/>
+                    <img src={image_comics_HulkAngry} width="400px" height="550px"/>
                 </div>
                 <div className="title">
                     <div className="describ">
@@ -18,7 +19,6 @@ function Comics_HulkAngry ()
                     <div className="links">
                         <h2>List Characters</h2>
                         <Link to="/characters/1">Hulk</Link>
-                        {/* <a href="/characters/1">Hulk</a> */}
                     </div>
                 </div>
             </div>
