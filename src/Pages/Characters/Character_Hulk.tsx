@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom'
-import './../../styles/Comics.css'
+import './../../styles/Characters/Hulk.css'
 import image_hulk from '/src/data/image/hulk.png'
 
 function Character_Hulk ()
@@ -18,7 +17,7 @@ function Character_Hulk ()
                     </div>
                     <div className="links">
                         <h2>List Product</h2>
-                        <Link to="/comics/2">Hulk. Angry</Link>
+                        <a href="/comics/2">Hulk. Angry</a>
                     </div>
                 </div>
             </div>
