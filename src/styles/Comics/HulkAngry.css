@@ -1,0 +1,49 @@
+
+.title
+{
+    height: 44em;
+    width: 50%;
+    margin-left: 2em;
+    color: black
+}
+
+.between
+{
+    display: flex;
+}
+
+.title h1
+{
+    text-align: center;
+    font-size: 3em;
+}
+
+.title img
+{
+    object-position: center;
+    margin-left: 15em;
+}
+
+.describ
+{
+    height: 55%;
+    font-size: 3em;
+    margin-top: 1em;
+}
+
+.describ p
+{
+    margin-left: 1em;
+}
+
+.links
+{
+    height: 45%;
+    font-size: 2em;
+    margin: 0;
+}
+
+.links a
+{
+    margin-left: 1em;
+}

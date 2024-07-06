@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom'
-import './../../styles/Comics.css'
+import './../../styles/Characters/Spider_Man.css'
 import image_spider_man from '/src/data/image/spider_man.png'
 
 function Character_SpiderMan ()
@@ -18,7 +17,7 @@ function Character_SpiderMan ()
                     </div>
                     <div className="links">
                         <h2>List Product</h2>
-                        <Link to="/comics/3">Modern Spider Man</Link>
+                        <a href="/comics/3">Modern Spider Man</a>
                     </div>
                 </div>
             </div>

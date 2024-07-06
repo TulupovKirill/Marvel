@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom'
-import './../../styles/Comics.css'
+import './../../styles/Characters/Iron_Man.css'
 import image_iron_man from '/src/data/image/iron_man.png'
 
 function Character_IronMan ()
@@ -18,7 +17,7 @@ function Character_IronMan ()
                     </div>
                     <div className="links">
                         <h2>List Product</h2>
-                        <Link to="/comics/1">Essential Iron Man, Vol. 1</Link>
+                        <a href="/comics/1">Essential Iron Man, Vol. 1</a>
                     </div>
                 </div>
             </div>
